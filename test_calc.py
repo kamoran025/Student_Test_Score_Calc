@@ -2,7 +2,7 @@ student_number = int(input('Enter number of students here: '))
 student_tests = int(input('Enter number of tests: '))
 sum_avg = 0.0
 count = 0
-while count <= student_number:
+while count < student_number:
     total = 0.0
     count+=1
     print(f'Student {count} information:')
